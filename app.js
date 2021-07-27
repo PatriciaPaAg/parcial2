@@ -95,7 +95,7 @@ app.get("/api/getAnimal/:animal", (req, res) => {
       res.render("pages/any", { title: animalito, animal: zoo});
     }
   }
-  res.render("pages/any", { title: animalito, animal: ""});
+  res.render("pages/any", { title: animalito, animal: zoo});
 });
 
 
